@@ -1,7 +1,7 @@
 export default function Docs() {
     return (
-        <main>
+        <div>
             Docs
-        </main>
+        </div>
     )
 }

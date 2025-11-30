@@ -1,0 +1,11 @@
+.main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.innerWrapper {
+    width: 100%;
+    max-width: min(100%, 1080px);
+    padding: 0 1rem;
+}
