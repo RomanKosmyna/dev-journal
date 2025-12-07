@@ -1,0 +1,31 @@
+.link {
+    padding: .5rem;
+    padding-inline-end: .5rem;
+    padding-inline-start: 1.25rem;
+    width: 100%;
+    border-radius: 0;
+    text-align: start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.link:hover {
+    background-color: bisque;
+}
+
+.svgContainer {
+    padding-inline-end: .25rem;
+    color: blue;
+}
+
+.svg {
+    transition-timing-function: cubic-bezier(.4, 0, 1, 1);
+    transition-duration: .1s;
+    min-width: 20px;
+    min-height: 20px;
+    transform: rotate(270deg);
+}

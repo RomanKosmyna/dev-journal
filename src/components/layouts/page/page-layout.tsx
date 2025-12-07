@@ -8,11 +8,11 @@ type PageLayoutProps = {
 
 const PageLayout = ({ children }: PageLayoutProps) => {
     return (
-        <main className={styles.main}>
+        <div className={styles.pageWrapper}>
             <div className={styles.innerWrapper}>
                 {children}
             </div>
-        </main>
+        </div>
     );
 };
 

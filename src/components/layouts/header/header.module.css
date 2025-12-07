@@ -4,12 +4,22 @@
     background-color: black;
     display: flex;
     justify-content: center;
+    z-index: 40;
+    position: sticky;
+    top: 0;
 }
 
 .innerWrapper {
     width: 100%;
     max-width: min(100%, 1080px);
     padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    gap: 1rem;
 }
 
 .link {
