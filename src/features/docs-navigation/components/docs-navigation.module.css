@@ -1,14 +1,15 @@
 .wrapper {
     margin-top: -4rem;
     z-index: 10;
+    display: block;
 }
 
 .innerWrapper {
     position: fixed;
-    padding-top: 5rem;
+    padding-top: 4rem;
     top: 0;
-    inset-inline-start: 0;
-    inset-inline-end: 0;
+    /* inset-inline-start: 0;
+    inset-inline-end: 0; */
 }
 
 .innerInnerWrapper {

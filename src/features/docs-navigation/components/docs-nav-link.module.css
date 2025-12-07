@@ -17,15 +17,19 @@
     background-color: bisque;
 }
 
-.svgContainer {
-    padding-inline-end: .25rem;
-    color: blue;
+.subLinkWrapper {
+    opacity: 1;
+    transition: opacity 250ms ease-in-out;
 }
 
-.svg {
-    transition-timing-function: cubic-bezier(.4, 0, 1, 1);
-    transition-duration: .1s;
-    min-width: 20px;
-    min-height: 20px;
-    transform: rotate(270deg);
+/* .active {
+    opacity: .5;
+    display: none;
+} */
+
+.notActive {
+    box-sizing: border-box;
+    height: 0px;
+    overflow: hidden;
+    display: none;
 }

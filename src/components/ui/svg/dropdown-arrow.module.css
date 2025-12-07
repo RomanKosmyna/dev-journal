@@ -1,0 +1,12 @@
+.svgContainer {
+    padding-inline-end: .25rem;
+    color: blue;
+}
+
+.svg {
+    transition-timing-function: cubic-bezier(.4, 0, 1, 1);
+    transition-duration: .1s;
+    min-width: 20px;
+    min-height: 20px;
+    transform: rotate(270deg);
+}

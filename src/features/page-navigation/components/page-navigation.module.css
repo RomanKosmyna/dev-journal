@@ -1,0 +1,20 @@
+.mainWrapper {
+    display: block;
+    max-width: 21rem;
+    margin-top: -4rem;
+}
+
+.nav {
+    padding-top: 5rem;
+    top: 0;
+    inset-inline-end: 0;
+    position: sticky;
+}
+
+.listWrapper {
+    padding-inline-start: 1rem;
+    overflow-y: auto;
+    max-height: calc(100vh - 7.5rem);
+    height: 100%;
+    overscroll-behavior: contain;
+}
