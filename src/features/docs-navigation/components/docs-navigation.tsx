@@ -16,7 +16,7 @@ const DocsNavigation = () => {
                         <aside className={styles.aside}>
                             <nav role="navigation" className={styles.nav}>
                                 <ul>
-                                    <h3>GET STARTED</h3>
+                                    <h3 className={styles.header}>HEADER</h3>
                                     <DocsNavLink link={"/javascript"} text={"JavaScript"} links={["qwe1", "qwe2"]} currentUrl={pathname} />
                                     <DocsNavLink link={"/sql"} text={"SQL"} links={["sql1"]} currentUrl={pathname} />
                                     <DocsNavLink link={"/creatio"} text={"Creatio"} links={["creatio1", "creatio2", "creatio3"]} currentUrl={pathname} />

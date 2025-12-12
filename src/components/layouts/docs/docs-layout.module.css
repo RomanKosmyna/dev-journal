@@ -1,9 +1,10 @@
 .outerWrapper {
     display: grid;
     grid-template-columns: 20rem auto 20rem;
+    position: relative;
+    z-index: 10;
 }
 
 .contentWrapper {
     min-width: 0;
-    height: 2000px;
 }
